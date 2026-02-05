@@ -74,10 +74,10 @@ cache: This operator allows you to view the cached version of a page. For exampl
 <img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/75ef810f-c642-4a9e-8e35-d6d9c934e24f" />
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -93,7 +93,7 @@ Top level domain expansion
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -111,7 +111,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 <img width="924" height="808" alt="image" src="https://github.com/user-attachments/assets/268323db-9d68-420c-b4a6-84a8f895c78a" />
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -123,13 +123,14 @@ select any username in the first column of the above file and check the same
 
 <img width="750" height="395" alt="image" src="https://github.com/user-attachments/assets/1f730e46-76c5-41d4-ac33-00b4a35b88ca" />
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
-  
+ ## Output
+  <img width="774" height="455" alt="image" src="https://github.com/user-attachments/assets/b621ea8a-915a-4ec9-982c-2b614275fe12" />
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -138,6 +139,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+<img width="623" height="195" alt="image" src="https://github.com/user-attachments/assets/476029aa-c5c4-4de9-a0c2-f29ce598637a" />
 
 
 ## RESULT:
